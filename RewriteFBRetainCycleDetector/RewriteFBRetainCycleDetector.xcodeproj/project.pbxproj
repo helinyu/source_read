@@ -17,6 +17,8 @@
 		D41D1AFD2563E6530031F2ED /* RewriteFBRetainCycleDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D1AFC2563E6530031F2ED /* RewriteFBRetainCycleDetectorTests.m */; };
 		D41D1B082563E6530031F2ED /* RewriteFBRetainCycleDetectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D1B072563E6530031F2ED /* RewriteFBRetainCycleDetectorUITests.m */; };
 		D41D1B572563EAAC0031F2ED /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D41D1B552563EAAC0031F2ED /* fishhook.c */; };
+		D41D1B602563EBF50031F2ED /* FBAssociationManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = D41D1B5F2563EBF50031F2ED /* FBAssociationManager.mm */; };
+		D41D1B6A2563F0730031F2ED /* FBRetainCycleDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = D41D1B692563F0730031F2ED /* FBRetainCycleDetector.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,11 @@
 		D41D1B4C2563E8BD0031F2ED /* Type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
 		D41D1B552563EAAC0031F2ED /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		D41D1B562563EAAC0031F2ED /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		D41D1B5E2563EBF50031F2ED /* FBAssociationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAssociationManager.h; sourceTree = "<group>"; };
+		D41D1B5F2563EBF50031F2ED /* FBAssociationManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FBAssociationManager.mm; sourceTree = "<group>"; };
+		D41D1B672563EFB30031F2ED /* FBAssociationManager+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBAssociationManager+Internal.h"; sourceTree = "<group>"; };
+		D41D1B682563F0730031F2ED /* FBRetainCycleDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRetainCycleDetector.h; sourceTree = "<group>"; };
+		D41D1B692563F0730031F2ED /* FBRetainCycleDetector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FBRetainCycleDetector.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +157,11 @@
 			children = (
 				D41D1B252563E6A60031F2ED /* BaseType.h */,
 				D41D1B4C2563E8BD0031F2ED /* Type.h */,
+				D41D1B5E2563EBF50031F2ED /* FBAssociationManager.h */,
+				D41D1B5F2563EBF50031F2ED /* FBAssociationManager.mm */,
+				D41D1B672563EFB30031F2ED /* FBAssociationManager+Internal.h */,
+				D41D1B682563F0730031F2ED /* FBRetainCycleDetector.h */,
+				D41D1B692563F0730031F2ED /* FBRetainCycleDetector.mm */,
 			);
 			path = FBRetainCycleDetector;
 			sourceTree = "<group>";
@@ -288,6 +300,8 @@
 				D41D1AE22563E6520031F2ED /* AppDelegate.m in Sources */,
 				D41D1AF32563E6530031F2ED /* main.m in Sources */,
 				D41D1AE52563E6520031F2ED /* SceneDelegate.m in Sources */,
+				D41D1B602563EBF50031F2ED /* FBAssociationManager.mm in Sources */,
+				D41D1B6A2563F0730031F2ED /* FBRetainCycleDetector.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
